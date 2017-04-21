@@ -42,7 +42,7 @@
   <ItemGroup>
     <Compile Include="UriCombine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StringExtesion.cs" />
+    <Compile Include="StringExtension.cs" />
     <Compile Include="UriExtension.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>UrlCombine</id>
+    <version>$version$</version>
+    <title>UrlCombine</title>
+    <authors>Jean Lourenço</authors>
+    <owners>Jean Lourenço</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/jean-lourenco/UrlCombine/tree/master/UrlCombine</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>C# util for combining Url paths. Works similarly to Path.Combine.</description>
+    <releaseNotes>First Release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>url combine merge util uri</tags>
+  </metadata>
+</package>

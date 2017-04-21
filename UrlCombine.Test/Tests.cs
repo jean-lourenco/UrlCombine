@@ -24,5 +24,30 @@ namespace UrlCombine.Test
             Assert.Equal(expected, actualUriExtension);
             Assert.Equal(expected, actualStringExtension);
         }
+
+        [Fact]
+        public void Base_Path_With_No_Relative_Should_Return_Base_Path()
+        {
+            var expected = "http://www.google.com.br/";
+
+            var actualStatic = UrlCombine.Combine(expected, null);
+            var actualUriExtension = new Uri(expected).Combine(null).ToString();
+            var actualStringExtension = expected.CombineUrl(null);
+
+            Assert.Equal(expected, actualStatic);
+            Assert.Equal(expected, actualUriExtension);
+            Assert.Equal(expected, actualStringExtension);
+        }
+
+        [Fact]
+        public void Base_Path_Null_Should_Throw_Exception()
+        {
+            string basePath = null;
+            Uri baseUri = null;
+
+            Assert.Throws<ArgumentNullException>(() => UrlCombine.Combine(basePath, "relative/path"));
+            Assert.Throws<ArgumentNullException>(() => basePath.CombineUrl("relative/path"));
+            Assert.Throws<ArgumentNullException>(() => baseUri.Combine("relative/path"));
+        }
     }
 }

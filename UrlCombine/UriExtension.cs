@@ -12,6 +12,9 @@ namespace UrlCombine
         /// <returns>The merged Uri</returns>
         public static Uri Combine(this Uri baseUri, string relativeUrl)
         {
+            if (baseUri == null)
+                throw new ArgumentNullException(nameof(baseUri));
+
             return new Uri(UrlCombine.Combine(baseUri.AbsoluteUri, relativeUrl));
         }
     }

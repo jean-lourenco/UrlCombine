@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace UrlCombine
 {
@@ -16,10 +12,10 @@ namespace UrlCombine
         /// <returns>The merged url</returns>
         public static string Combine(string baseUrl, string relativeUrl)
         {
-            if (baseUrl.Length == 0)
-                return relativeUrl;
+            if (String.IsNullOrWhiteSpace(baseUrl))
+                throw new ArgumentNullException(nameof(baseUrl));
 
-            if (relativeUrl.Length == 0)
+            if (String.IsNullOrWhiteSpace(relativeUrl))
                 return baseUrl;
 
             baseUrl = baseUrl.TrimEnd('/');

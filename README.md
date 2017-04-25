@@ -32,6 +32,16 @@ The Uri extension is used with the Combine method:
   // fullUrl = new Uri("www.foo.com.br/bar/zeta")
 ```
 
+## Why not Uri(Uri base, string relative)?
+Well, It doesn't work as expected. It strips the relative path of the base Uri, if it exists:
+``` csharp
+  var uriBase = new Uri("http://www.foo.com/relative");
+  var relative = "/other/url";
+  
+  var uri = new Uri(uriBase, relative);
+  // uri.ToString() = "http://www.foo.com/other/url"
+```
+
 ## License
 The MIT License (MIT)
 

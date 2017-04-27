@@ -33,7 +33,7 @@ The Uri extension is used with the Combine method:
 ```
 
 ## Why not Uri(Uri base, string relative)?
-Well, It doesn't work as expected. It strips the relative path of the base Uri, if it exists:
+Well, It does more than just validating the slashes. It strips the relative path of the base Uri if it doesn't end with a slash and if the relative path doesn't start with one:
 ``` csharp
   var uriBase = new Uri("http://www.foo.com/relative");
   var relative = "/other/url";

@@ -1,5 +1,5 @@
 # UrlCombine
-The UrlCombine is a [Nuget Package](https://www.nuget.org/packages/UrlCombine/1.0.0) to conveniently combine your base Url and relative url.
+The UrlCombine is a [Nuget Package](https://www.nuget.org/packages/UrlCombine/1.0.1) to conveniently combine your base Url and relative url.
 This library treats the slashes between the base and relative paths to ensure a valid url.
 
 ``` csharp

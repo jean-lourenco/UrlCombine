@@ -12,5 +12,16 @@
         {
             return UrlCombine.Combine(urlBase, relativeUrl);
         }
+
+        /// <summary>
+        /// Combines the url base and the array of relative urls into one, consolidating the '/' between them
+        /// </summary>
+        /// <param name="urlBase">Base url that will be combined</param>
+        /// <param name="relativeUrl">The array of relative paths to combine</param>
+        /// <returns>The merged url</returns>
+        public static string CombineUrl(this string urlBase, params string[] relativeUrls)
+        {
+            return UrlCombine.Combine(urlBase, relativeUrls);
+        }
     }
 }

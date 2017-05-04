@@ -17,5 +17,19 @@ namespace UrlCombine
 
             return new Uri(UrlCombine.Combine(baseUri.AbsoluteUri, relativeUrl));
         }
+
+        /// <summary>
+        /// Combines the Uri with base path and the array of relative urls into one, consolidating the '/' between them
+        /// </summary>
+        /// <param name="urlBase">Base Uri that will be combined</param>
+        /// <param name="relativeUrl">The array of relative paths to combine</param>
+        /// <returns>The merged Uri</returns>
+        public static Uri Combine(this Uri baseUri, params string[] relativePaths)
+        {
+            if (baseUri == null)
+                throw new ArgumentNullException(nameof(baseUri));
+
+            return new Uri(UrlCombine.Combine(baseUri.AbsoluteUri, relativePaths));
+        }
     }
 }

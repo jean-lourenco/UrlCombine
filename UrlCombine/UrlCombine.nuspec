@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>UrlCombine</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>UrlCombine</title>
     <authors>Jean Lourenço</authors>
     <owners>Jean Lourenço</owners>
@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/jean-lourenco/UrlCombine/tree/master/UrlCombine</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>C# util for combining Url paths. Works similarly to Path.Combine.</description>
-    <releaseNotes>First Release</releaseNotes>
+    <releaseNotes>Added multiple relativePaths overload method of UrlCombine.Combine</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>url combine merge util uri</tags>
   </metadata>

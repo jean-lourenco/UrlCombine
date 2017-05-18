@@ -66,13 +66,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UrlCombine\UrlCombine.csproj">
-      <Project>{e5467a58-5d1b-444a-86d2-dafd22b60928}</Project>
-      <Name>UrlCombine</Name>
-    </ProjectReference>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+    <ProjectReference Include="..\UrlCombine\UrlCombine.csproj">
+      <Project>{95ea1671-32ed-4bdd-ac7e-fccf0ad2c93f}</Project>
+      <Name>UrlCombine</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlCombine.Test", "UrlCombine.Test\UrlCombine.Test.csproj", "{D2F65244-B055-483D-AC85-D20E9263C2D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlCombine", "UrlCombine\UrlCombine.csproj", "{95EA1671-32ED-4BDD-AC7E-FCCF0AD2C93F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlCombineLib", "UrlCombineLib\UrlCombineLib.csproj", "{95EA1671-32ED-4BDD-AC7E-FCCF0AD2C93F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

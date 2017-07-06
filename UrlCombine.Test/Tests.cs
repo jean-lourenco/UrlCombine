@@ -1,7 +1,8 @@
 ﻿using System;
 using Xunit;
+using UrlCombineLib;
 
-namespace UrlCombine.Test
+namespace UrlCombineTest
 {
     public class Tests
     {

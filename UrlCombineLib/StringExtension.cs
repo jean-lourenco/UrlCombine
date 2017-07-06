@@ -1,4 +1,4 @@
-﻿namespace UrlCombine
+﻿namespace UrlCombineLib
 {
     public static class StringExtension
     {

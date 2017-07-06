@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace UrlCombine
+namespace UrlCombineLib
 {
     public static class UrlCombine
     {

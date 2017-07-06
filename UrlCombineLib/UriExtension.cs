@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UrlCombine
+namespace UrlCombineLib
 {
     public static class UriExtension
     {

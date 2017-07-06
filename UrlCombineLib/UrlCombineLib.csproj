@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.6;net40;netcoreapp1.0</TargetFrameworks>
+    <TargetFrameworks>netstandard1.0;net40;netcoreapp1.0</TargetFrameworks>
     <PackageId>UrlCombine</PackageId>
-    <PackageVersion>1.0.3</PackageVersion>
+    <PackageVersion>2.0.0</PackageVersion>
     <Authors>Jean Lourenço</Authors>
     <Title>UrlCombine</Title>
     <Description>C# util for combining Url paths. Works similarly to Path.Combine.</Description>
@@ -11,7 +11,8 @@
     <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/jean-lourenco/UrlCombine</PackageProjectUrl>
     <PackageTags>url combine merge util uri</PackageTags>
-    <PackageReleaseNotes>Nuget package now targets netcoreapp1.0, netstandard1.6 and net40</PackageReleaseNotes>
+    <PackageReleaseNotes>Package namespace chaged to UrlCombineLib due to naming conflicts. The package now targets netstandard1.0 instead of 1.6.</PackageReleaseNotes>
+    <RootNamespace>UrlCombineLib</RootNamespace>
   </PropertyGroup>
 
 </Project>

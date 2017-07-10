@@ -3,7 +3,7 @@ The UrlCombine is a [Nuget Package](https://www.nuget.org/packages/UrlCombine) t
 This library treats the slashes between the base and relative paths to ensure a valid url.
 
 ``` csharp
-  using UrlCombine;
+  using UrlCombineLib;
 ```
 
 **There are 3 ways to use the library:**

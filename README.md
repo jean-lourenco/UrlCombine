@@ -1,4 +1,4 @@
-# UrlCombine
+# UrlCombine [![Build Status](https://travis-ci.org/jean-lourenco/UrlCombine.svg?branch=master)](https://travis-ci.org/jean-lourenco/UrlCombine)
 The UrlCombine is a [Nuget Package](https://www.nuget.org/packages/UrlCombine) to conveniently combine your base Url and relative url.
 This library treats the slashes between the base and relative paths to ensure a valid url.
 

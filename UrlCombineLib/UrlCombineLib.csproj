@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.0;net40;netcoreapp1.0</TargetFrameworks>
+    <TargetFrameworks>netstandard1.0</TargetFrameworks>
     <PackageId>UrlCombine</PackageId>
     <PackageVersion>2.0.0</PackageVersion>
     <Authors>Jean Lourenço</Authors>

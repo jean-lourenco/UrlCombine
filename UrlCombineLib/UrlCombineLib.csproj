@@ -13,6 +13,14 @@
     <PackageTags>url combine merge util uri</PackageTags>
     <PackageReleaseNotes>Package namespace chaged to UrlCombineLib due to naming conflicts. The package now targets netstandard1.0 instead of 1.6.</PackageReleaseNotes>
     <RootNamespace>UrlCombineLib</RootNamespace>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
 
 </Project>
